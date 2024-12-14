@@ -15,7 +15,7 @@ This repository is a codebase for probing and visualizing multilingual language 
         git clone https://github.com/siwuagain/multilingual-probing-visualization
         cd multilingual-probing-visualization
 
-1. [Optional] Construct a virtual environment for this project. Only `python3` is supported.
+1. [Optional] Construct a virtual environment for this project. Only `python3` is supported. (i used venv instead)
 
         conda create --name probe-viz
         conda activate probe-viz
@@ -49,7 +49,7 @@ This will write raw `.txt` files and BERT hidden state data into the `examples/`
 
 3. Generate tSNE visualizations:
 
-        python3 run_demo.py examples/
+        python3 probing/run_demo.py examples/
 
 This will write an output directory with visualizations to disk---check the output logs.
 
