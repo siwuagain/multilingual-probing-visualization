@@ -17,4 +17,4 @@ mkdir -p examples/fr
 mv fr_gsd-ud-dev.conllu examples/fr/dev.conllu
 
 mkdir -p examples/results
-mkdir -p exmaples/data
+mkdir -p examples/data

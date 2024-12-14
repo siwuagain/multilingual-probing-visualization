@@ -36,7 +36,7 @@ Visualizations for English→French transfer and a joint multilingual space are 
 
 1. Download data:
 
-        bash download_examples.sh
+        bash download_example.sh
 
 This downloads pretrained probe parameters into `examples/data`, as well as example data for English and French into the `examples/{en, fr}` folders, using the name convention described earlier.
 To test on other languages, download the dev split `conllu` files into similarly-named directories.
