@@ -89,8 +89,8 @@ if __name__ == '__main__':
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-  with open('../example_config.yaml') as f:
-    yaml_args = yaml.load(f)
+  with open('./example_config.yaml') as f:
+    yaml_args = yaml.load(f, Loader=yaml.Loader)
 
   lang_list = cli_args.langs
   if lang_list == []:
